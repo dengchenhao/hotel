@@ -1,0 +1,143 @@
+body {
+	visibility: hidden;
+	font-family: helvetica, tahoma, verdana, sans-serif;
+	padding: 10px;
+	font-size: 13px;
+	margin: 0;
+}
+
+*{margin:0;padding:0;border:1;}
+#nav {
+ line-height: 27px;  list-style-type: none;text-align:left;
+ left: -999em; width: 180px; position: absolute; margin-top: 5px;
+}
+#nav  li{
+ float: left; width: 180px; margin-top: 5px;
+}
+#nav  a{
+ display: block;width: 156px;text-align:left;padding-left:24px;
+}
+#nav  a:link  {
+ 	text-decoration:none;
+}
+#nav  a:visited  {
+ 	text-decoration:none;
+}
+#nav a:hover  {
+ text-decoration:none;font-weight:normal;
+
+}
+#nav {
+ left: auto;
+}
+#nav {
+ left: auto;
+}
+#content {
+ clear: left; 
+}
+
+.tableForm {
+	border-collapse: collapse;
+	width: 100%;
+}
+.tableForm th {
+	text-align: right;
+	border: 1px solid #ccc;
+	padding-right:5px;
+}
+
+.tableForm td {
+	text-align: left;
+	border: 1px solid #ccc;
+	padding-top:0px;
+	padding-bottom:0px;
+	height:25px;
+}
+
+.tableForm input {
+	height:18px;
+}
+
+.tableForm textarea {
+	font-size:14px;
+}
+
+.info {
+	background: #FFFEE6;
+	color: #8F5700;
+	padding: 12px;
+}
+
+.tip {
+	width: 24px;
+	height: 16px;
+	float: left;
+}
+.rightAdd5{
+	padding-right:5px;
+}
+.leftAdd5{
+	padding-left:5px;
+}
+
+.widthFull{
+	width:100%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping
+PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.integration.entity.Parkcar" table="parkcar">
+		<id name="parkid" column="parkid" type="integer">
+			<generator class="identity"> <!-- 主键id的生成方式为自增 -->
+			</generator>
+		</id>
+		<property name="userid" column="userid" type="integer"></property>
+		<property name="status" column="status" type="integer"></property>
+		<property name="carnumber" column="carnumber" type="string"></property>
+		<property name="starttime" column="starttime" type="string"></property>
+		<property name="endtime" column="endtime" type="string"></property>
+		<property name="username" column="username" type="string"></property>
+<!-- 		<property name="status" column="status" type="integer"></property> -->
+<!-- 		<property name="starttime" column="starttime" type="string"></property> -->
+<!-- 		<property name="money" column="money" type="string"></property> -->
+	</class>
+</hibernate-mapping>
